@@ -12,6 +12,15 @@ You can install via apm: `apm install platformio-ide-terminal`
 
 Or navigate to the install tab in Atom’s settings view, and search for `platformio-ide-terminal`.
 
+### Additional steps for some Windows 10 users
+Due to an update to the Command Prompt in Windows 10, most shells other then Powershell will have issues with moving the cursor and deleting characters while embeded in other applications. If you change the Shell Override option, make sure you enable the Use legacy console option in the Windows Command prompt:
+
+1. Bring up a command prompt window. (Press Win+R > Type "cmd" > Click OK)
+2. Open the settings. (Right click the title bar > Click "Properties")
+3. Enable "Use Legacy Console" (Click "Options" tab > Click "Use legacy console")
+4. Click "OK"
+5. Close and reopen any terminal windows in Atom.
+
 ## Usage
 
 `platformio-ide-terminal` stays in the bottom of your editor while you work.
